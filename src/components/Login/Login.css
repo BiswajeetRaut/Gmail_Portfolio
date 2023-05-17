@@ -1,0 +1,52 @@
+.login {
+    background-color: #ffffff;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+}
+.login-container > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+.login-container >img {
+    object-fit: contain;
+    height: 200px;
+    background: transparent;
+}
+
+#logo {
+    animation: rotation 3s linear 0s ;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes rotation {
+    0%{}
+    50% {
+      transform: rotate(90deg);
+      position:relative;
+      left:0;
+      right:0;
+      top:0;
+      bottom:0;
+
+    }
+    100%{
+       transform:rotate(90deg);
+       left:10
+    }
+  }
+  #root::-webkit-scrollbar{
+    display:none;
+  }
+  #root{
+   overflow-style:none;
+    scrollbar-width: none;
+  }

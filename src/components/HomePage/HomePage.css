@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+  }
+  html, body {
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
+  body {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  .codebox {
+    background-color: #222;
+    border-radius: 12px;
+    max-width: 80vw;
+    box-shadow: 1px 3px 18px 0 rgba(#222, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: scale(1.5);
+  }
+  main {
+    padding: 12px 15px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  header {
+    padding: 12px 15px;
+    background-color: #444;
+    border-radius: 12px 12px 0 0;
+    line-height: 0;
+    width: 100%;
+    max-height: 31px;
+  }
+  .span {
+    height: 10px;
+    width: 10px;
+    margin-right: 6px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #ff5c5c;
+  }
+  .cross{
+    height: 11px !important;
+    width: 11px !important;
+    /* color:white; */
+    opacity:0;
+  }
+   .cross:hover{
+   /* display: flex; */
+   opacity: 1;
+  }
+  #linuus-contact {
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: stretch;
+    background-color: #ccc;
+    overflow: hidden;
+    border-radius: 8px 0 0 0;
+  }
+  #linuus-contact a {
+    color: #333;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-family: sans-serif;
+    border-right: 1px solid #333;
+    text-decoration: none;
+  }
+  #linuus-contact a:last-child {
+    border-right: none;
+  }
+  #linuus-contact a:hover {
+    background: #bbb;
+  }
+  pre{
+    font-size: small;
+  }
+  @media only screen and (max-width: 500px) {
+   .codebox{
+    transform:scale(1);
+   }
+  }
+  #root::-webkit-scrollbar{
+    display:none;
+  }
+  #root{
+   overflow-style:none;
+    scrollbar-width: none;
+  }
