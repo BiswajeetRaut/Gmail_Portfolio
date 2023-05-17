@@ -1,35 +1,20 @@
-# Gmail Clone with ReactJS
+# Gmail Portfolio with React Js
 
-A Gmail Clone that you can sign in with your Google Account, compose a new e-mail and send realtime emails to the project.
+A Gmail Portfolio in which you can sign in with your Google Account, compose a new e-mail and send realtime emails to me and also view my details.
 
 Click demo to try it by yourself!
 
-## Gmail Clone Demo Link
-
-You can view the site here
-[Click Me](https://gmaiil-clone-v1.web.app/)
-
-## Topics
-
-- Redux
-- Material UI
-- React Hooks
-- Flexbox
-- Firebase's Firestore realtime Database
-- Firebase Google Authentication (Full Login)
-- Responsive Design
-- Deploy the App LIVE on Firebase
-
 ## Author
+Biswajeet Raut
 
-Özge Coşkun Gürsucu (codermother)
+### How to run the project
 
-In the project directory, you can run:
+You can run the Project by:
 
-### `npm start`
+1. First make a firebase project and in the firestore add emails collection to it.
+2. Datastore design: emails(collections) --> docs(about,comments,personal_comments,contact,eductaion,skills,projects) --> in each doc we have collection Emails --> doc - id, data - (to,message,timestamp,subject) 
+3. Setup Firebase google authentication.
+4. yarn install
+5. yarn start 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
