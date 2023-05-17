@@ -2,7 +2,6 @@
 
 A Gmail Portfolio in which you can sign in with your Google Account, compose a new e-mail and send realtime emails to me and also view my details.
 
-Click demo to try it by yourself!
 
 ## Author
 Biswajeet Raut
